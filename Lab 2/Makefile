@@ -9,3 +9,6 @@ Fish.o: Fish.c
 
 Pellets.o: Pellets.c
 	gcc -o Pellets Pellets.c -I -lm.
+
+exec:
+	./SwimMill
